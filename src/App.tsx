@@ -27,7 +27,9 @@ const router = createBrowserRouter([{
       loader: detailsLoader,
     },
   ]
-}]);
+}], {
+  basename: "/Registry"
+});
 
 function App() {
 
